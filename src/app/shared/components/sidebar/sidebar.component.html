@@ -1,0 +1,44 @@
+<div class="logo"></div>
+<ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
+  <div nz-row>
+    <div nz-col nzSpan="12">
+      <li nz-submenu nzTitle="Home" nzIcon="home"></li>
+    </div>
+  </div>
+  <div nz-row>
+    <div nz-col nzSpan="12">
+      <li nz-submenu nzTitle="Dashboards" nzIcon="dashboard">
+        <ul>
+          <li nz-menu-item>Position Summary(Alcohol)</li>
+          <li nz-menu-item>Position Summary(Sugar)</li>
+          <li nz-menu-item>Quarterly Alcohol Inventory Summary</li>
+          <li nz-menu-item>Quarterly Sugar Inventory Summary</li>
+        </ul>
+      </li>
+    </div>
+  </div>
+  <div nz-row>
+    <div nz-col nzSpan="12">
+      <li nz-submenu nzTitle="References" nzIcon="database">
+        <ul>
+            <li nz-submenu nzTitle="Sales">
+                <ul>
+                    <li nz-menu-item>Sales(summary)</li>
+                    <li nz-menu-item>Sales Agreements</li>
+                    <li nz-menu-item>Sales Orders</li>
+                </ul>
+            </li>
+            <li nz-submenu nzTitle="Purchases">
+                <ul>
+                    <li nz-menu-item>Trade Orders</li>
+                </ul>
+            </li>
+            <li nz-menu-item>Alcohol</li>
+            <li nz-menu-item>Sugar</li>
+            <li nz-menu-item>Plants</li>
+            <li nz-menu-item>Companies</li>
+        </ul>
+      </li>
+    </div>
+  </div>
+</ul>

@@ -1,0 +1,35 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+@keyframes bgcolor {
+    0% {
+        background-color: palegreen;
+    }
+
+    30% {
+        background-color: floralwhite;
+    }
+
+    60% {
+        background-color: greenyellow;
+    }
+
+    90% {
+        background-color: burlywood;
+    }
+
+    100% {
+        background-color: rgb(152, 173, 236);
+    }
+}
+
+.form-container {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 20s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}

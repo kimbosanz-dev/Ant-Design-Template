@@ -1,0 +1,28 @@
+<nz-card 
+class="card-group"
+nzHoverable
+[nzCover]="rhiLogo">
+    <form 
+    nz-form
+    class="login-form">
+    <div class="button-container">
+        <nz-form-item>
+                <a 
+                nz-button
+                class="login-button"
+                [nzType]="'primary'"
+                href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?
+                client_id=e88e7f2e-9bf8-43ef-ab36-893bd50a3604&
+                scope=https%3A%2F%2Fgraph.microsoft.com%2Fuser.read&
+                response_type=code"
+                >Log In with MS Office 365</a>
+        </nz-form-item>
+    </div>
+    </form>
+</nz-card>
+
+<h3 class="version">Version: 1.0 Build No. XYZ123</h3>
+
+<ng-template #rhiLogo>
+    <img src="/assets/img/RHI-logo.png" alt="">
+</ng-template>
